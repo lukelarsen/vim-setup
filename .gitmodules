@@ -37,3 +37,12 @@
 [submodule "bundle/webapi"]
 	path = bundle/webapi
 	url = git@github.com:mattn/webapi-vim.git
+[submodule "bundle/emmet"]
+	path = bundle/emmet
+	url = git@github.com:mattn/emmet-vim.git
+[submodule "bundle/autopairs"]
+	path = bundle/autopairs
+	url = git@github.com:jiangmiao/auto-pairs.git
+[submodule "bundle/surround"]
+	path = bundle/surround
+	url = git@github.com:tpope/vim-surround.git
