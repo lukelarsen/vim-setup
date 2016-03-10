@@ -10,12 +10,30 @@
 [submodule "bundle/lightline"]
 	path = bundle/lightline
 	url = git@github.com:itchyny/lightline.vim.git
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = git@github.com:scrooloose/nerdtree.git
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = git@github.com:tpope/vim-fugitive.git
 [submodule "bundle/gitgutter"]
 	path = bundle/gitgutter
 	url = git@github.com:airblade/vim-gitgutter.git
+[submodule "bundle/multiple-cursors"]
+	path = bundle/multiple-cursors
+	url = git@github.com:terryma/vim-multiple-cursors.git
+[submodule "bundle/textobj-user"]
+	path = bundle/textobj-user
+	url = git@github.com:kana/vim-textobj-user.git
+[submodule "bundle/textobj-css"]
+	path = bundle/textobj-css
+	url = https://github.com/jasonlong/vim-textobj-css.git
+[submodule "bundle/bundle/syntastic"]
+	path = bundle/bundle/syntastic
+	url = git@github.com:scrooloose/syntastic.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = git@github.com:scrooloose/syntastic.git
+[submodule "bundle/bufkill"]
+	path = bundle/bufkill
+	url = git@github.com:qpkorr/vim-bufkill.git
+[submodule "bundle/webapi"]
+	path = bundle/webapi
+	url = git@github.com:mattn/webapi-vim.git

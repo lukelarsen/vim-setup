@@ -1,0 +1,16 @@
+{
+   "variables": {
+       "lang": "en",
+       "locale": "en-US",
+       "charset": "UTF-8",
+       "indentation": "\t",
+       "newline": "\n"
+   },
+   "css": {
+       "filters": "css",
+       "profile": "css",
+       "snippets": {
+           "face": "Facetime"
+       }
+   }
+}
