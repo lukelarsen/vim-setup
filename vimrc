@@ -45,6 +45,8 @@ execute pathogen#infect()
 "===================================="
 
 filetype on
+" if Vim in the terminal is giving an error with commiting with Git run this
+" git config --global core.editor $(which vim)
 syntax on
 colorscheme Glowsticks
 set guifont=Espresso\ Mono\ Regular:h14
@@ -157,12 +159,17 @@ map <C-o> <C-w>L
 
 
 
+
 "===================================="
 "   PLUGINS
 "===================================="
 
 " Command-T
 " -----------------------
+"  If Command-T stops working we probably need to do this:
+"  cd ~/.vim/bundle/Command-T/ruby/command-t
+"  ruby extconf.rb
+"  make
 set wildignore+=*.log,*.sql,*.cache,node_modules/*,.meteor/*,jspm_packages/*,dist/*,*.png,*.gif,*.jpg,.DS_STORE,.gitignore,.gitattributes,.bowerrc,.gitmodules
 noremap <Leader>r :CommandTFlush<CR>
 
@@ -234,6 +241,7 @@ imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 "" Installing Plugins
 " -----------------------
 
+" cd ~/.vim
 " git submodule add git@source/pluginname.git bundle/pluginname
 
 
@@ -266,6 +274,15 @@ imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 
 " List of additional empty tags, to be added to --new-empty-tags
 " let g:syntastic_html_tidy_empty_tags = ['something', 'something']
+
+
+"" Surround
+" -----------------------
+
+" cs"'  to change " to ' wrapping something
+" cs't to change ' to <tag></tag> wrapping something
+" ysst to take a line not wrapping in anything and wrap it in a tag
+" cst<tag> to change the wrapping tag
 
 
 "" Keys to remember
