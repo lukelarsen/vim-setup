@@ -48,10 +48,11 @@ filetype on
 " if Vim in the terminal is giving an error with commiting with Git run this
 " git config --global core.editor $(which vim)
 syntax on
-colorscheme Glowsticks
+colorscheme onedark
+"colorscheme Glowsticks
 set guifont=Espresso\ Mono\ Regular:h14
 set number
-set linespace=5
+set linespace=3
 set noshowmode
 set guicursor+=a:blinkon0
 
@@ -224,6 +225,14 @@ let g:user_emmet_settings = webapi#json#decode(join(readfile(expand('~/.vim/.sni
 "imap <S-tab> <C-y>,
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 
+
+" Powerline
+" -----------------------
+
+set laststatus=2
+let g:airline_theme='onedark'
+let g:airline_left_sep = ' '
+let g:airline_right_sep = ' '
 
 
 
