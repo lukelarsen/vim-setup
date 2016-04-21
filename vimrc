@@ -233,7 +233,15 @@ set laststatus=2
 let g:airline_theme='onedark'
 let g:airline_left_sep = ' '
 let g:airline_right_sep = ' '
+let g:airline_section_error = ''
+let g:airline_section_c = '%t'
 
+
+" Ag (Silver Searcher)
+" -----------------------
+
+" Start searching from projet root
+let g:ag_working_path_mode="r"
 
 
 
@@ -302,3 +310,10 @@ let g:airline_right_sep = ' '
 " d - create new directory
 " R - rename file/directory
 " D - delete file/directory
+
+" Silver Searcher
+" :Ag 'what to search for'
+" e - open file and close quickfix window
+" o - open and leave quickfix window open
+" h - open in horizontal split
+" v - open in vertical split
